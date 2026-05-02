@@ -1,0 +1,49 @@
+{
+  "run_id": "20260502_183254",
+  "seed": 20260430,
+  "grid": {
+    "eta_points": 90,
+    "a_points": 8,
+    "c_points": 4,
+    "n_rep": 400,
+    "n_boot": 500,
+    "n_sc": 300
+  },
+  "thresholds": {
+    "estimable_mean_boundary_count": 17,
+    "estimable_probability_boundary_count": 16,
+    "non_estimable_probability_boundary_count": 16
+  },
+  "warning_rule": {
+    "slope_window": 3,
+    "slope_threshold": -0.0015,
+    "level_threshold": 0.12
+  },
+  "key_results": {
+    "reference_eta_c_probability": 0.21365168539325843,
+    "policy_mean_delta_unstable_adaptive_vs_passive_stressed": 0.9927083333333333,
+    "policy_mean_delta_unstable_adaptive_vs_scheduled_stressed": 0.0,
+    "policy_mean_delta_terminal_adaptive_vs_scheduled_stressed": 0.010023431635151509
+  },
+  "key_paths": {
+    "manifest": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\meta\\run_manifest_20260502_183254.json",
+    "endpoint_table": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\tables\\endpoint_summary.csv",
+    "endpoint_data": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\data\\endpoint_terminals.npz",
+    "qc_table": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\tables\\grid_quality_control.csv",
+    "threshold_table": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\tables\\threshold_estimates.csv",
+    "margin_table": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\tables\\classification_margin_sensitivity.csv",
+    "configuration_panel": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\tables\\configuration_panel.csv",
+    "configuration_summary": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\tables\\configuration_summary.csv",
+    "scenario_table": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\tables\\scenario_summary.csv",
+    "scenario_data": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\data\\scenario_traces.npz",
+    "warning_grid": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\tables\\warning_rule_grid.csv",
+    "warning_eval": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\tables\\warning_rule_holdout.csv",
+    "warning_rule_file": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\meta\\selected_warning_rule.json",
+    "policy_table": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\tables\\policy_panel.csv",
+    "policy_schedule_table": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\tables\\scheduled_policy_design.csv",
+    "policy_delta_table": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\tables\\policy_deltas.csv",
+    "policy_summary": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\tables\\policy_summary.csv",
+    "robustness_table": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\tables\\parameter_robustness_reference_slice.csv",
+    "figure_manifest": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs\\tables\\figure_manifest.csv"
+  }
+}

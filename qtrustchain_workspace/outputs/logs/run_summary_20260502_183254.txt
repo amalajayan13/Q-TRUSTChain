@@ -1,0 +1,132 @@
+Run summary
+================================================================================
+
+Environment
+--------------------------------------------------------------------------------
+run_id: 20260502_183254
+seed: 20260430
+execution_mode: local
+root_dir: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace
+output_dir: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs
+
+Grid
+--------------------------------------------------------------------------------
+eta_points: 90
+a_points: 8
+c_points: 4
+n_rep: 400
+n_boot: 500
+n_sc: 300
+
+Threshold summary
+--------------------------------------------------------------------------------
+estimable_mean_boundary_count: 17
+estimable_probability_boundary_count: 16
+non_estimable_probability_boundary_count: 16
+
+Selected warning rule
+--------------------------------------------------------------------------------
+slope_window: 3
+slope_threshold: -0.0015
+level_threshold: 0.12
+
+Scenario summary
+--------------------------------------------------------------------------------
+             scenario      eta    a    c  p_ever_unstable  median_first_instability  terminal_p_stable  terminal_p_transition  terminal_p_unstable  terminal_mean_psi  terminal_q10_psi  terminal_q90_psi
+             buffered 0.133652 0.20 0.02              0.0                       NaN                1.0               0.000000             0.000000           0.156014          0.151919          0.160317
+   threshold_adjacent 0.213652 0.20 0.02              0.0                       NaN                0.5               0.500000             0.000000           0.019991          0.015731          0.024346
+incipient_instability 0.243652 0.20 0.02              1.0                     109.0                0.0               0.003333             0.996667          -0.031192         -0.035487         -0.026962
+          high_stress 0.160000 0.32 0.05              1.0                      54.0                0.0               0.000000             1.000000          -0.280329         -0.284708         -0.275654
+
+Warning evaluation
+--------------------------------------------------------------------------------
+             scenario  event_rate  warning_rate  true_positive_rate  false_positive_rate  precision  median_lead_time
+             buffered         0.0           0.0                 NaN                  0.0        NaN               NaN
+          high_stress         1.0           1.0                 1.0                  NaN        1.0              14.0
+incipient_instability         1.0           1.0                 1.0                  NaN        1.0              40.0
+   threshold_adjacent         0.0           1.0                 NaN                  1.0        0.0               NaN
+
+Configuration comparison summary
+--------------------------------------------------------------------------------
+                 mode             regime  mean_delta_terminal_psi  se_delta_terminal_psi  mean_delta_p_ever_unstable  se_delta_p_ever_unstable  n_conditions
+                 full           buffered                 0.000000               0.000000                    0.000000                  0.000000            16
+           memoryless           buffered                -0.013337               0.000284                    0.002292                  0.002292            16
+    no_consensus_risk           buffered                 0.616189               0.027075                    0.000000                  0.000000            16
+       no_crypto_risk           buffered                 0.117601               0.001166                    0.000000                  0.000000            16
+ no_cumulative_stress           buffered                 0.018517               0.000333                    0.000000                  0.000000            16
+  no_operational_cost           buffered                 0.044382               0.000413                    0.000000                  0.000000            16
+      no_quantum_risk           buffered                 0.196273               0.027052                    0.000000                  0.000000            16
+no_resilience_reserve           buffered                -0.538553               0.000793                    1.000000                  0.000000            16
+   pqc_consensus_only           buffered                 0.069313               0.026046                    0.062500                  0.062500            16
+             qkd_only           buffered                 0.777864               0.027641                    0.000000                  0.000000            16
+     static_threshold           buffered                 0.239217               0.028360                    0.000000                  0.000000            16
+                 full           stressed                 0.000000               0.000000                    0.000000                  0.000000            16
+           memoryless           stressed                -0.013156               0.000215                    0.006667                  0.006667            16
+    no_consensus_risk           stressed                 0.616059               0.027074                   -0.993333                  0.006667            16
+       no_crypto_risk           stressed                 0.132814               0.001167                   -0.993333                  0.006667            16
+ no_cumulative_stress           stressed                 0.021389               0.000329                   -0.057917                  0.055733            16
+  no_operational_cost           stressed                 0.048347               0.000397                   -0.599583                  0.048506            16
+      no_quantum_risk           stressed                 0.289759               0.026947                   -0.993333                  0.006667            16
+no_resilience_reserve           stressed                -0.522749               0.000814                    0.006667                  0.006667            16
+   pqc_consensus_only           stressed                 0.182863               0.025887                   -0.872500                  0.082219            16
+             qkd_only           stressed                 0.797235               0.027651                   -0.993333                  0.006667            16
+     static_threshold           stressed                 0.274421               0.028402                   -0.993333                  0.006667            16
+                 full threshold_adjacent                 0.000000               0.000000                    0.000000                  0.000000            16
+           memoryless threshold_adjacent                -0.013363               0.000228                    0.578542                  0.008750            16
+    no_consensus_risk threshold_adjacent                 0.616086               0.027119                    0.000000                  0.000000            16
+       no_crypto_risk threshold_adjacent                 0.125224               0.001210                    0.000000                  0.000000            16
+ no_cumulative_stress threshold_adjacent                 0.019962               0.000300                    0.000000                  0.000000            16
+  no_operational_cost threshold_adjacent                 0.046272               0.000374                    0.000000                  0.000000            16
+      no_quantum_risk threshold_adjacent                 0.243249               0.027991                    0.000000                  0.000000            16
+no_resilience_reserve threshold_adjacent                -0.530585               0.000634                    1.000000                  0.000000            16
+   pqc_consensus_only threshold_adjacent                 0.126319               0.027136                    0.062917                  0.062474            16
+             qkd_only threshold_adjacent                 0.787572               0.027454                    0.000000                  0.000000            16
+     static_threshold threshold_adjacent                 0.256878               0.028001                    0.000000                  0.000000            16
+
+Policy comparison summary
+--------------------------------------------------------------------------------
+            regime  mean_delta_unstable_adaptive_vs_passive  se_delta_unstable_adaptive_vs_passive  mean_delta_unstable_adaptive_vs_scheduled  se_delta_unstable_adaptive_vs_scheduled  mean_delta_terminal_adaptive_vs_passive  se_delta_terminal_adaptive_vs_passive  mean_delta_terminal_adaptive_vs_scheduled  se_delta_terminal_adaptive_vs_scheduled  mean_delta_intervention_adaptive_vs_scheduled  n_conditions
+          stressed                                 0.992708                               0.007292                                        0.0                                      0.0                                 0.100053                               0.001450                                   0.010023                                 0.001167                                      -0.000161            16
+threshold_adjacent                                 0.000000                               0.000000                                        0.0                                      0.0                                 0.083903                               0.000228                                  -0.002998                                 0.000278                                       0.001307            16
+
+Parameter robustness
+--------------------------------------------------------------------------------
+                  spec  rho   mu  intervention_penalty  noise_scale  eta_c_probability  delta_vs_reference
+high_cumulative_stress 0.82 0.28                 0.145          1.0           0.207173           -0.006365
+           high_memory 0.92 0.18                 0.145          1.0           0.225803            0.012265
+            high_noise 0.82 0.18                 0.145          1.3           0.213629            0.000091
+ low_cumulative_stress 0.82 0.10                 0.145          1.0           0.219309            0.005770
+            low_memory 0.65 0.18                 0.145          1.0           0.209242           -0.004296
+             low_noise 0.82 0.18                 0.145          0.7           0.213382           -0.000157
+             reference 0.82 0.18                 0.145          1.0           0.213538            0.000000
+
+Figure index
+--------------------------------------------------------------------------------
+                                  figure                                                                                                                                         path
+                     threshold_structure                      F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\figures\fig_threshold_structure.png
+                   scenario_trajectories                    F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\figures\fig_scenario_trajectories.png
+configuration_effects_threshold_adjacent F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\figures\fig_configuration_effects_threshold_adjacent.png
+                   policy_matched_budget                    F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\figures\fig_policy_matched_budget.png
+                    parameter_robustness                     F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\figures\fig_parameter_robustness.png
+
+Artifact index
+--------------------------------------------------------------------------------
+manifest: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\meta\run_manifest_20260502_183254.json
+endpoint_table: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\tables\endpoint_summary.csv
+endpoint_data: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\data\endpoint_terminals.npz
+qc_table: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\tables\grid_quality_control.csv
+threshold_table: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\tables\threshold_estimates.csv
+margin_table: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\tables\classification_margin_sensitivity.csv
+configuration_panel: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\tables\configuration_panel.csv
+configuration_summary: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\tables\configuration_summary.csv
+scenario_table: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\tables\scenario_summary.csv
+scenario_data: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\data\scenario_traces.npz
+warning_grid: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\tables\warning_rule_grid.csv
+warning_eval: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\tables\warning_rule_holdout.csv
+warning_rule_file: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\meta\selected_warning_rule.json
+policy_table: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\tables\policy_panel.csv
+policy_schedule_table: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\tables\scheduled_policy_design.csv
+policy_delta_table: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\tables\policy_deltas.csv
+policy_summary: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\tables\policy_summary.csv
+robustness_table: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\tables\parameter_robustness_reference_slice.csv
+figure_manifest: F:\MBZUAI UAE\16-IEEE-QTRUSTChain\GitHub\Q-TRUSTChain\qtrustchain_workspace\outputs\tables\figure_manifest.csv

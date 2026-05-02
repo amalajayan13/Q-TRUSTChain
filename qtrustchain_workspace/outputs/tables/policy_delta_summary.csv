@@ -1,0 +1,3 @@
+regime,mean_delta_unstable,se_delta_unstable,mean_delta_terminal_psi,se_delta_terminal_psi,mean_delta_intervention_rate,se_delta_intervention_rate,mean_delta_first_instability,n_conditions
+stressed,0.9935416666666667,0.006458333333333337,0.10009839357713335,0.0013769750407612782,0.43986458333333334,0.001915313993628013,,16
+threshold_adjacent,0.0,0.0,0.08383441871202651,0.00025459290638043353,0.43002604166666664,0.0013255401801627311,,16

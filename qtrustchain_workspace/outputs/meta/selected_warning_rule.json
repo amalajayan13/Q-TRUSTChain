@@ -1,0 +1,10 @@
+{
+  "slope_window": 3.0,
+  "slope_threshold": -0.0015,
+  "level_threshold": 0.12,
+  "tpr_calibration": 1.0,
+  "fpr_calibration": 0.5,
+  "precision_calibration": 0.6666666666666666,
+  "median_lead_calibration": 25.5,
+  "score": 1.005
+}

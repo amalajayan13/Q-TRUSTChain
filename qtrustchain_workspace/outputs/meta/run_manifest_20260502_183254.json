@@ -1,0 +1,35 @@
+{
+  "run_id": "20260502_183254",
+  "seed": 20260430,
+  "execution_mode": "local",
+  "root_dir": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace",
+  "output_dir": "F:\\MBZUAI UAE\\16-IEEE-QTRUSTChain\\GitHub\\Q-TRUSTChain\\qtrustchain_workspace\\outputs",
+  "python_version": "3.10.20",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy_version": "2.2.5",
+  "pandas_version": "2.3.3",
+  "matplotlib_version": "3.10.8",
+  "T": 120,
+  "N_REP": 400,
+  "N_BOOT": 500,
+  "N_SC": 300,
+  "M_PSI": 0.02,
+  "M_REF": 1.0,
+  "eta_grid_size": 90,
+  "a_grid_size": 8,
+  "c_grid_size": 4,
+  "weights": {
+    "alpha": 1.2,
+    "beta": 0.8,
+    "gamma": 1.0,
+    "delta": 0.45,
+    "lam": 1.05
+  },
+  "model_config": {
+    "temporal_memory_rho": 0.82,
+    "cumulative_stress_mu": 0.18,
+    "lagged_consensus": true,
+    "seasonal_component": true
+  },
+  "timestamp_utc": "2026-05-02T18:32:54.552371+00:00"
+}

@@ -1,0 +1,5 @@
+scenario,event_rate,warning_rate,true_positive_rate,false_positive_rate,precision,median_lead_time
+buffered,0.0,0.0,,0.0,,
+high_stress,1.0,1.0,1.0,,1.0,14.0
+incipient_instability,1.0,1.0,1.0,,1.0,40.0
+threshold_adjacent,0.0,1.0,,1.0,0.0,
