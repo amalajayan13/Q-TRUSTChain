@@ -7,3 +7,4 @@ This repository contains the Jupyter notebook used for the analysis in the prepa
 Contains all outputs, results, and data used.
 
 ## Zenodo
+https://doi.org/10.5281/zenodo.19660397
